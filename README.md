@@ -11,15 +11,15 @@ You can find example data (including a video showing how to import data) here: A
 4.	Download example data from Zenodoo. Unzip downloaded folder.
 5.	Move downloaded App folder and example data folder in a working folder (e.g. in the MATLAB folder).
 Note: Steps 6-11 are visualized in a video which can be found in the example dataset from Zenodoo (LC_MSMS_Viewer.mp4).
-6.	Open MATLAB and select the working folder. Add folders and subfolders to the MATLAB path (right click: “Add To Path”  “Selected Folders and Subfolders”. Right click on “App_LC_MSMS_Viewer.mlapp”  Run. Graphical user interface (GUI) will open. 
-7.	Press “Load”  “Load RawData”. Select all .mzXML files from Example Data. Select “hitlist” (you can find an example HitList in the Example data). Enter a filename and destination for saving the imported data.
+6.	Open MATLAB and select the working folder. Add folders and subfolders to the MATLAB path (right click: “Add To Path” -> “Selected Folders and Subfolders”. Right click on “App_LC_MSMS_Viewer.mlapp” -> Run. Graphical user interface (GUI) will open. 
+7.	Press “Load” -> “Load RawData”. Select all .mzXML files from Example Data. Select “hitlist” (you can find an example HitList in the Example data). Enter a filename and destination for saving the imported data.
 8.	In the command line you can see the progress of data import. 
 9.	Imported data are saved in a Matlab structure with the following name: YYYYMMDD_LC_MSMS_data_SelectedFilename.mat
 Data are also exported into two Excel sheets:
 YYYYMMDD_LC_MSMS_data_SelectedFilename.xlsx (MS2 fragments, fold-changes, predicted fragments, etc.)
 YYYYMMDD_LC_MSMS_data_SelectedFilename_QC.xlsx (Quality Control results)
-10.	To visualize EICs and MS1 and MS2 spectra load Matlab structure in the App (Figure 6). Press “Load”  “Load LC_MSMS_data”  Select previously saved Matlab structure (YYYYMMDD_LC_MSMS_data_SelectedFilename.mat). Select metabolite-strain pair for visualization in the Table on the left side. To change polarity use slider.
-Critical: If GUI is not working ensure that the folder “App_LC_MSMS_Viewer” AND the subdfolder “Functions” is added to the matlab path.
+10.	To visualize EICs and MS1 and MS2 spectra load Matlab structure in the App (Figure 6). Press “Load” -> “Load LC_MSMS_data” -> Select previously saved Matlab structure (YYYYMMDD_LC_MSMS_data_SelectedFilename.mat). Select metabolite-strain pair for visualization in the Table on the left side. To change polarity use slider.
+Critical: If GUI is not working ensure that the folder “App_LC_MSMS_Viewer” AND the subfolder “Functions” is added to the matlab path.
 11.	Use exported Excel-Sheet with MS2 fragments for further analysis.
 
 
