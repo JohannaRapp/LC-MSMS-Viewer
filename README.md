@@ -2,7 +2,7 @@
 Can be used to load targeted LC-MS/MS data from Agilent HR-QTOF. The Matlab GUI imports raw data, extracts EICs (extracted ion chromatograms) for targeted metabolites, extracts MS2 fragments and compare them with predicted spectra from CFM-ID 4.0.
 
 # Example Data
-You can find example data (including a video showing how to import data) here: ADD ZENODOO link here
+You can find example data (including a video showing how to import data) here: (https://doi.org/10.5281/zenodo.21990180)
 
 # How to use this GUI
 1.	Convert raw files (.d) in .mzXML files using MSConvert (Settings: 64-bit, Write index, TPP compatibility, Figure 4).
