@@ -128,7 +128,9 @@ Two excel sheets are written next to the saved `.mat`:
 ## References
 
 STAR protocol: Add Reference for STAR protocol here.
+
 MSConvert: Chambers, M.C., Maclean, B., Burke, R., Amodei, D., Ruderman, D.L., Neumann, S., Gatto, L., Fischer, B., Pratt, B., Egertson, J., et al. (2012). A cross-platform toolkit for mass spectrometry and proteomics. Nat Biotechnol 30, 918–920. https://doi.org/10.1038/nbt.2377.
+
 CFM-ID 4.0: Wang, F., Liigand, J., Tian, S., Arndt, D., Greiner, R., Wishart, D.S., 2021. CFM-ID 4.0: More Accurate ESI-MS/MS Spectral Prediction and Compound Identification. Analytical Chemistry 93, 11692–11700. https://doi.org/10.1021/acs.analchem.1c01465
 
 Code has been optimized with Claude Code Opus 5.
